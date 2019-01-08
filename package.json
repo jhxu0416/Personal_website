@@ -1,0 +1,22 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhxu0416/Personal_website.git"
+  },
+  "author": "Jiahao Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhxu0416/Personal_website/issues"
+  },
+  "homepage": "https://github.com/jhxu0416/Personal_website#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
