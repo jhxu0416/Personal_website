@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Welcome to My Homepage</title>
+    <title>Contact Me</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -16,7 +16,7 @@
     <link rel="stylesheet" , href="css/font.css" />
   </head>
 
-  <body id="bg-img">
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -26,8 +26,8 @@
       <nav class="menu">
         <div class="menu-branding"><div class="portrait"></div></div>
         <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="/" class="nav-link">Home</a>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="about.html" class="nav-link">About</a>
@@ -38,29 +38,44 @@
           <li class="nav-item">
             <a href="visual.html" class="nav-link">Data Visualization</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main id="home">
-      <h1 class="lg-heading">Jiahao <span class="text-secondary ">XU</span></h1>
-      <h1 class="chinese-name">许家豪</h1>
+    <main id="contact">
+      <h1 id="about-lg-heading">
+        Contact <span class="text-secondary ">Me</span>
+      </h1>
       <div class="sm-heading">
-        <span class="sm-heading-text"
-          >Data Scientist, Statistician, Programmer & Web Developer</span
-        >
+        <span class="sm-heading-text"><h3>How you can reach me...</h3></span>
       </div>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/jiahao-xu-566a8379/"
-          ><i class="fab fa-linkedin fa-2x"></i
-        ></a>
-        <a href="https://github.com/jhxu0416"
-          ><i class="fab fa-github fa-2x"></i
-        ></a>
+      <div class="boxes">
+        <div>
+          <span class="text-secondary">Github: </span>
+          <a href="https://github.com/jhxu0416">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div>
+          <span class="text-secondary">Linkedin: </span>
+          <a href="https://www.linkedin.com/in/jiahao-xu-566a8379/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <span class="text-secondary">Email: </span>jx94@georgetown.edu
+        </div>
+
+        <div>
+          <span class="text-secondary">Address: </span>Washington metropolitan
+          area
+        </div>
       </div>
     </main>
+    <footer id="main-footer">Copyright &copy; 2019</footer>
     <script src="js/main.js"></script>
   </body>
 </html>
