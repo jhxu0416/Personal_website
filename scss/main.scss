@@ -126,7 +126,12 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
   img {
+    height: 250px;
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
     //border: 3px set-text-color($primary-color) solid;
 
     &:hover {
