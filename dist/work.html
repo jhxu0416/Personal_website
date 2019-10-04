@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>View My Work</title>
+
+    <!-- Bootstrap 4-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -45,56 +53,103 @@
       </nav>
     </header>
     <main id="work">
-      <h1 id="about-lg-heading">
-        My <span class="text-secondary ">Work</span>
-      </h1>
+      <h1 id="about-lg-heading">My <span style="color:#ffc966;">Work</span></h1>
       <div class="sm-heading">
         <span class="sm-heading-text"
           ><h3>Check out some of my projects...</h3></span
         >
       </div>
-      <div class="projects">
-        <div class="item">
-          <img src="img/projects/CGDV.png" alt="project" />
-          <h3 class="btn-light">
-            Data Visualizations under
-            <a href="http://www.centerforglobaldata.org/" target="_blank"
-              >Center for Global Data Visualization</a
-            >
-          </h3>
-          <a href="https://cgdv.github.io/" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <img src="img/projects/DPMM.png" alt="project" />
-          <h3 class="btn-light">
-            Dirichlet Process Mixture Models Clustering on Air Quality
-          </h3>
-          <a href="https://github.com/jhxu0416/DPMM" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <img src="img/projects/emoji.png" alt="project" />
-          <h3 class="btn-light">
-            Emotion Sentiment Analysis Using Emoji
-          </h3>
-          <a href="https://github.com/jhxu0416/emoji_sentiemt" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <img src="img/projects/CAPTCHA.png" alt="project" />
-          <h3 class="btn-light">
-            CAPTCHA recognition system
-          </h3>
-          <a
-            href="https://github.com/jhxu0416/hacking_CAPTCHA"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="card bg-info text-white m-3">
+              <div class="card-header">
+                <h1>Data Science Projects</h1>
+              </div>
+              <div class="card-body">
+                <!--  -->
+                <h4 class="card-title">Data Visualization</h4>
+                <p class="card-text">
+                  Created over 30 data visualizations @
+                  <a
+                    href="http://www.centerforglobaldata.org/"
+                    target="_blank"
+                    style="text-decoration: underline"
+                    >Center for Global Data Visualization</a
+                  >
+                </p>
+                <!--  -->
+                <h4 class="card-title">Dashboard Prototype</h4>
+                <p class="card-text">
+                  Designed a dashboard prototype using Python Pandas and
+                  JavaScript (D3, DC, Crossfilter). Analyzed the State-by-State
+                  impact of proposed changes to Supplemental Nutrition
+                  Assistance Program (SNAP) policy at Mathematica Policy
+                  Research’s data visualization mini hackathon.
+                  <a
+                    href="http://127.0.0.1:5500/dist/visual/SeeingisBelieving.html"
+                    target="_blank"
+                    style="text-decoration: underline"
+                    >View Dashboard here</a
+                  >
+                </p>
+                <!--  -->
+                <h4 class="card-title">Bayesian Clustering</h4>
+                <p class="card-text">
+                  Created a Bayesian model in R with Dirichlet Process Mixture
+                  Model and Gibbs sampler. Recovered an air quality data set of
+                  Hawaii and Los Angeles combined to separated distributions for
+                  each city.
+                </p>
+                <a
+                  href="https://github.com/jhxu0416/DPMM"
+                  class="btn-light"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card bg-dark text-white m-3">
+              <div class="card-header">
+                <h1>Deep Learning Projects</h1>
+              </div>
+              <!--  -->
+              <div class="card-body">
+                <h4 class="card-title">Natural Language Processing</h4>
+                <p class="card-text">
+                  Built a text emotion detect system using Python deep learning
+                  frameworks including Keras and TensorFlow. The underlying
+                  model is based on neural networks with sequence models,
+                  transfer learning and multi-task learning.
+                </p>
+                <a
+                  href="https://github.com/jhxu0416/emoji_sentiemt"
+                  class="btn-dark"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+              <!--  -->
+              <div class="card-body">
+                <h4 class="card-title">Simple CAPTCHA Recognition</h4>
+                <p class="card-text">
+                  CAPTCHA recognition using Python.
+                </p>
+                <a
+                  href="https://github.com/jhxu0416/hacking_CAPTCHA"
+                  class="btn-dark"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
